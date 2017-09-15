@@ -27,3 +27,7 @@
   background-image: url("../images/foodtop/dinner.jpg");
   color: white;
 }
+#fastfood {
+  border-style: ridge;
+  padding: 2%;
+}
