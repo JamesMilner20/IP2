@@ -20,7 +20,10 @@
 }
 #lunchtab {
   background-image: url("../images/foodtop/lunch.jpg");
+  background-size: cover;
+  color: white;
 }
 #dinnertab {
   background-image: url("../images/foodtop/dinner.jpg");
+  color: white;
 }
