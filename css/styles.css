@@ -1,0 +1,26 @@
+#headerdiv {
+  background-image: url("../images/backgrounds/landing.jpg");
+  height: 636px;
+  width: 100%;
+  background-size: cover;
+  color: white;
+}
+#logotop {
+  padding-top: 5%;
+}
+#happydiv {
+  background-color: #F15B29;
+}
+#partydiv {
+  background-color: #E4E5E7;
+}
+#breakfasttab {
+  background-image: url("../images/foodtop/breakfast.jpg");
+  color: white;
+}
+#lunchtab {
+  background-image: url("../images/foodtop/lunch.jpg");
+}
+#dinnertab {
+  background-image: url("../images/foodtop/dinner.jpg");
+}
