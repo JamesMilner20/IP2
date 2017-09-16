@@ -2,17 +2,16 @@
   background-image: url("../images/backgrounds/landing.jpg");
   height: 636px;
   width: 100%;
-  background-size: cover;
   color: white;
 }
 #logotop {
   padding-top: 5%;
 }
 #happydiv {
-  background-color: #F15B29;
+  background-color: #E4E5E7;
 }
 #partydiv {
-  background-color: #E4E5E7;
+  background-color: #F15B29;
 }
 #breakfasttab {
   background-image: url("../images/foodtop/breakfast.jpg");
@@ -28,6 +27,14 @@
   color: white;
 }
 #fastfood {
-  border-style: ridge;
-  padding: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 150%;
+}
+#drink1 {
+  float: left;
+}
+div.fastfoodimg {
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
