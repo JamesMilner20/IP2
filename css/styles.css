@@ -4,92 +4,120 @@
   color: white;
   background-size: cover;
 }
-#logotop {
+
+#logotop  {
   padding-top: 5%;
 }
-.row2 {
-  width: 100%;
-  background-size: cover;
-  margin-bottom: 5%;
-}
-#happydiv {
+
+#happydiv h2{
   background-color: #E4E5E7;
-  background-size: cover;
-  padding: 7% 0 7% 0;
+  padding: 10.6% 0 10.6% 0;
+  border: 0;
+  margin: 0;
 }
-#partydiv {
+
+#partydiv h2 {
   background-color: #F15B29;
-  background-size: cover;
-  padding: 7% 0 7% 0;
+  padding: 10.6% 0 10.6% 0;
   color: white;
+  margin: 0;
 }
+
 #breakfasttab {
   background-image: url("../images/foodtop/breakfast.jpg");
   color: white;
   background-size: cover;
   padding: 5% 0 5% 0;
 }
+
 #lunchtab {
   background-image: url("../images/foodtop/lunch.jpg");
   background-size: cover;
   color: white;
   padding: 5% 0 5% 0;
 }
+
 #dinnertab {
   background-image: url("../images/foodtop/dinner.jpg");
   color: white;
   background-size: cover;
   padding: 5% 0 5% 0;
 }
+
 .fastfood {
   font-size: 150%;
-  margin: 10% 0% 5% 0%;
+  margin: 10% 0% 10% 0%;
 }
+
 #drink1 {
   float: left;
+  display: block;
 }
+
+#drinkstext {
+  text-align: right;
+  margin-right: 50px;
+}
+
+#fastfoodtext {
+  margin-left: 50px;
+}
+
 div.fastfoodimg {
   padding: 5%;
+  display: inline-block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #optionsdiv {
   margin-top: 10%;
   background-image: url("../images/backgrounds/foodsBg.jpg");
   background-size: cover;
   height: 599px;
 }
+
 .optionbackground {
   background-color: white;
-  margin: 10% 0% 10% 0%;
+  margin: 10% 0% 0% 0%;
   text-align: center;
+}
+
+.optionbackground .col-md-3 {
+  background-color: #E3E3E3;
+  color: #AEAEAE;
+  padding: 0;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+.optionbackground .active {
+  background-color: white;
+  color: #F15B29;
+  border-bottom: none;
+}
+
+.optionbackground .col-md-3 :hover:not(.active) {
+  background-color: white;
   background-size: cover;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow: hidden;
-    background-color: #E3E3E3;
-}
-li {
-    float: left;
-    border-right:1px solid #bbb;
-}
-.active {
-    background-color: white;
-}
-li a {
-    display: block;
-    color: #AEAEAE;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    width: 25%;
-}
-li a:hover:not(.active) {
-    background-color: white;
-}
-.options1 {
 
+.optionbackground h3 {
+  font-weight: bold;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+.optionbackground p {
+  font-size: 120%;
+  color: #F15B29;
+  padding-top: 5px;
+}
+
+.optionbackground .col-md-4 {
+  padding: 4% 0% 2% 0%;
+  padding-left: -10;
+}
+img {
+  padding: 0;
+  margin: 0;
 }
