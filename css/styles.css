@@ -24,15 +24,27 @@
   padding-top: 5%;
 }
 
+.part2{
+  height: auto;
+  width: auto;
+}
+
+.part2 .col-md-3{
+  padding: 0;
+}
+
+.part2 .col-md-3 :hover {
+
+}
+
 #happydiv {
   background-color: #E4E5E7;
-  padding: 7% 0 7% 0;
-  cursor: pointer;
+  padding: 6% 0 6% 0;
 }
 
 #partydiv {
   background-color: #F15B29;
-  padding: 7.5% 0 7.5% 0;
+  padding: 6% 0 6% 0;
   color: white;
   cursor: pointer;
 }
@@ -47,7 +59,7 @@
 
 #lunchtab {
   background-image: url("../images/foodtop/lunch.jpg");
-  background-size: cover;
+  background-size: auto;
   color: white;
   padding: 5% 0 5% 0;
   cursor: pointer;
@@ -57,7 +69,7 @@
   background-image: url("../images/foodtop/dinner.jpg");
   color: white;
   background-size: cover;
-  padding: 5% 0 5% 0;
+  /*padding: 5% 0 5% 0;*/
   cursor: pointer;
 }
 
@@ -66,9 +78,13 @@
   margin: 10% 0% 10% 0%;
 }
 
+.fastfoodimg {
+  float: left;
+  width: 20%;
+}
+
 #drink1 {
   float: left;
-  display: block;
 }
 
 #drinkstext {
@@ -82,7 +98,8 @@
 
 div.fastfoodimg {
   padding: 5%;
-  display: inline-block;
+  margin: 5%;
+  width: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -90,13 +107,17 @@ div.fastfoodimg {
   margin-top: 10%;
   background-image: url("../images/backgrounds/foodsBg.jpg");
   background-size: cover;
-  height: 599px;
+  height: auto;
 }
 
 .optionbackground {
   background-color: white;
-  margin: 10% 0% 0% 0%;
+  margin: 10% 0% 10% 0%;
   text-align: center;
+}
+
+#part4 .col-md-4 {
+  margin: 0;
 }
 
 .optionbackground .col-md-3 {
@@ -136,7 +157,7 @@ div.fastfoodimg {
 }
 
 div.part5a {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
