@@ -1,3 +1,7 @@
+body {
+  font-family: 'Arvo', sans-serif;
+}
+
 #headerdiv {
   background-image: url("../images/backgrounds/landing.jpg");
   height: 636px;
@@ -5,19 +9,44 @@
   background-size: cover;
 }
 
-.nav {
-  display: inline-block;
-  cursor: pointer;
-  margin-left: 80px;
-  margin-top: 80px
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F15A29;
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 
-.bar1, .bar2, .bar3 {
-  width: 55px;
-  height: 2.5px;
-  background-color: white;
-  margin: 8px 0;
-  transition: 0.4s;
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
 }
 
 #logotop {
@@ -69,7 +98,7 @@
   background-image: url("../images/foodtop/dinner.jpg");
   color: white;
   background-size: cover;
-  /*padding: 5% 0 5% 0;*/
+  padding: 5% 0 5% 0;
   cursor: pointer;
 }
 
@@ -98,7 +127,7 @@
 
 div.fastfoodimg {
   padding: 5%;
-  margin: 5%;
+  /*margin: 5%;*/
   width: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -162,6 +191,11 @@ div.part5a {
   margin-bottom: 5%;
   text-align: center;
   border-style: 1px solid #bbb;
+  padding: 2%;
+}
+
+.col-md-5 {
+  border-left: 1px solid #bbb;
 }
 
 .part6 {
